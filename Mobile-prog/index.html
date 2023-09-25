@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+
+<body> <!--HOME-->
+
+    <header class="header">
+        
+
+        <nav class="navbar">
+          <ul1>
+            <li1><a href="#" class="logo">Portfolio.</a></li1>
+            <li1><a href="#home1" style="--i:1;" class="active">Home</a></li1>
+            <li1><a href="#about" style="--i:2;">About</a></li1>
+            <li1><a href="#portfolio" style="--i:4;">Portfolio</a></li1>
+            <li1><a href="#contact" style="--i:5;">Contact</a></li1>
+          </ul1>
+        </nav>
+
+
+
+
+    </header>
+
+    
+    <section class="home">
+        
+        <div class="home-content">
+                <h1>Hi, I'm Jescel Solante</h1>
+                <h3>Frontend Developer</h3>
+                <p>I am a Web Developer from Norway.<br>
+                    A passionate web developer with a keen eye for detail and a drive for creating<br> exceptional digital experiences. </p>
+                <a href="#" class="btn">Hire Me </a><br><br><br>
+   	     		<h6>Copyright @2023:)</h6> 
+
+   	     	</div>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="jes2.png" alt="">
+                </div>
+            </div>
+                
+        </div>
+
+    </section> <br><br>
+
+      <!--About Section-->
+
+      <section id="about">
+            <div class="home-content1">
+                <h5>Get to Know More</h5>
+                <h1 >About <span style="color: yellow;">Me</span></h1>
+                <p>&emsp; &emsp; My journey in web development began with a fascination for the power of HTML and CSS in shaping the digital landscape. I embarked on my journey in the world of web development with a deep fascination for how the internet connects people and information. Over the years, I've polished my skills in HTML, CSS, JavaScript, and various modern frameworks to bring captivating designs to life. Additionally, I have extensive experience in database management, ensuring the full functionality of every project.
+                </p>
+               
+            </div>
+
+            <div class="home-img1">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="images">
+                    <img src="j1.png" alt="">
+                </div>
+            </div>
+                
+            </div>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"  onclick="opentab('hobbies')">Hobbies</p>
+                <p class="tab-links"  onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>HTML/ CSS</li>
+                <li>Time Management</li>
+                <li>Decision Making</li>
+                <li>Database Management</li>
+                <li>Front-End Frameworks</li>
+                <li>Responsive Design</li>
+            </ul>	
+        </div>
+
+        <div class="tab-contents" id="hobbies">
+            <ul>
+                <li>Podcasting</li>
+                <li>Singing or Listening to Music</li>
+                <li>Watching Astronomy Videos</li>
+                <li>Reading Fiction and Non-fiction</li>
+                <li>To be ALONE</li>
+            </ul>	
+        </div>
+
+        <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Elementary</span><br>Jasaan Central School</li>
+                    <li><span>Junior High</span><br>Jasaan National High School</li>
+                    <li><span>Senior High</span><br>Jasaan Senior High School</li>
+                    <li><span>College</span><br>USTP Jasaan</li>
+                </ul>	
+        </div>
+
+      </section>
+
+        <!--PORTFOLIO/ PROJECTS-->
+
+       <section id="portfolio">
+            <div class="project">
+                <h5>Browse My Recent</h5>
+                <h1>Pro<span style="color: yellow;">jects</span></h1>
+            </div>
+
+            <div class="responsive">
+                <div class="column">
+                  <a target="_blank" href="tea.png">
+                    <img src="tea.png" alt="Cinque Terre" width="600" height="600">
+                  </a>
+                  <div class="desc">Project 1. Is a user-friendly Milk Tea Ordering System, streamlining the process of selecting flavors, customizing preferences, and securely placing orders using Java language"</div>
+                </div>
+              </div><br><br>
+              
+              
+              <div class="responsive">
+                <div class="column">
+                  <a target="_blank" href="burg1.png">
+                    <img src="burg1.png" alt="Forest" width="600" height="600">
+                  </a>
+                  <div class="desc">Project 2. Burger Store was an activity assigned to us entails a straightforward ordering process, allowing customers to effortlessly select from a delectable range of burgers. </div>
+                </div>
+              </div><br><br>
+              
+              <div class="responsive">
+                <div class="column">
+                  <a target="_blank" href="ict.png">
+                    <img src="ict.png" alt="Northern Lights" width="600" height="600">
+                  </a>
+                  <div class="desc">Project 3. The ICT Reservation System stands as a tailored solution, offering a user-friendly interface for reserving essential equipment. This system not only optimizes the equipment booking process but also exemplifies a commitment to efficient resource management within the ICT domain.</div>
+                </div>
+              </div><br><br>
+              
+              <div class="responsive">
+                <div class="column">
+                  <a target="_blank" href="act.png">
+                    <img src="act.png" alt="Mountains" width="600" height="600">
+                  </a>
+                  <div class="desc">Project 4. This is my first time delving into basic HTML and CSS. I'm excited to begin learning and creating with these foundational web development tools."</div>
+                </div>
+              </div>
+              
+
+        </section>
+
+         <!--Contact Me-->
+   	 	<section id="contact">
+      
+            <h1>Get In <span style="color: yellow;">Touch</span></h1>
+            <h4> If You Are Interested.</h4>
+            <form action="" class="form">
+                <input type="username" name="name" class="input" placeholder="Enter Your Username" required> 
+                <input type="passwoed" name="password" class="input" placeholder="Enter Your Password" required>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+
+            </form>
+
+
+            <div class="contact-sci">
+              <a href="https://www.facebook.com/profile.php?id=100080276230470"><i class='bx bxl-facebook-circle'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fjes_jaaaaazy%3Figshid%3DOGQ5ZDc2ODk2ZA%253D%253D%26fbclid%3DIwAR179jiQCnpWkzcEbtOavTwDYoUaZQQBspS2rBZTAgm8w60XNnQGHuFUMVs&h=AT2n5ni3YckvfNMT9WvUa6ejHWJYAoAYmqPNjU9Buh9_B5_AdgwKesCzQSUMMWeqEXwJrnhh16ZfVNm87M87HVrj9tK44_gkJ28n725hsVWDTX8AB5agtbt0dhb0hNRHpNJebA"><i class='bx bxl-instagram'></i></a>
+          </div>
+
+      </section>
+
+
+
+
+        <script>
+	
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+        
+    
+            function opentab(tabname){
+                for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }
+                    for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+    
+       </script>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
